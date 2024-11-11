@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AI-powered Sentiment Analysis</title>
+  <link rel="stylesheet" href="/css/style.css"> <!-- Assure-toi de lier ton fichier CSS -->
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Hello AI</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+      <a href="#login" class="login">Login</a>
+      <a href="#signup" class="signup">Sign Up</a>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <section class="main-section">
+    <div class="text-content">
+      <h1>AI-powered Sentiment Analysis for Real-Time Customer Feedback</h1>
+      <p>Understand customer emotions and make data-driven decisions with our advanced analysis tool.</p>
+      <button class="cta">Get Started</button>
+    </div>
+    <div class="emotion-icons">
+      <img src="/assets/smile-emoji.gif" alt="Happy emoji">
+      <img src="/assets/neutral-emoji.gif" alt="Neutral emoji">
+      <img src="/assets/sad-emoji.gif" alt="Sad emoji">
+    </div>
+    <img src="/assets/sentiment-analysis-illustration.gif" alt="Sentiment analysis illustration">
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <p>Analyze customer feedback from multiple platforms and get real-time insights.</p>
+      <div class="features-list">
+        <div class="card">
+          <h3>Real-time Analysis</h3>
+          <p>Get immediate results and insights on customer sentiment as feedback arrives.</p>
+        </div>
+        <div class="card">
+          <h3>Cross-Platform Integration</h3>
+          <p>Analyze sentiments from social media, surveys, reviews, and more, all in one place.</p>
+        </div>
+        <div class="card">
+          <h3>Data-Driven Insights</h3>
+          <p>Turn feedback into actionable insights for better decision-making and improved customer satisfaction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <p>Choose the plan that fits your business needs.</p>
+      <div class="pricing-plans">
+        <div class="card">
+          <h3>Basic</h3>
+          <p>Perfect for small businesses</p>
+          <p>$9.99/month</p>
+          <button class="cta">Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Pro</h3>
+          <p>Advanced features for growing companies</p>
+          <p>$29.99/month</p>
+          <button class="cta">Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Enterprise</h3>
+          <p>Full suite for large enterprises</p>
+          <p>$99.99/month</p>
+          <button class="cta">Choose Plan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <div class="container">
+      <h2>What our clients say</h2>
+      <div class="testimonials-list">
+        <div class="testimonial">
+          <p>"This tool has completely transformed how we understand our customers!"</p>
+          <p>- Sarah, Marketing Director</p>
+        </div>
+        <div class="testimonial">
+          <p>"The real-time insights are a game-changer. We can now adapt our strategy on the fly."</p>
+          <p>- John, Product Manager</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Hello AI. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Feedback model-->
+  <div class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title">Feedback</span>
+        <span class="modal-close">&times;</span>
+      </div>
+      <div class="modal-body">
+        <h2>How are you feeling?</h2>
+        <p>Your input is valuable in helping us better understand your needs and tailor our service accordingly.</p>
+        <div class="emotions">
+          <div class="emotion">
+            <img src="/assets/sad-emoji.gif" alt="Sad" />
+          </div>
+          <div class="emotion">
+            <img src="/assets/neutral-emoji.gif" alt="Neutral" />
+          </div>
+          <div class="emotion selected">
+            <img src="/assets/medium-emoji.gif" alt="Medium" />
+            <div class="emotion-label">Medium</div>
+          </div>
+          <div class="emotion">
+            <img src="/assets/smile-emoji.gif" alt="Happy" />
+          </div>
+          <div class="emotion">
+            <img src="/assets/very-happy-emoji.gif" alt="Very Happy" />
+          </div>
+        </div>
+        <textarea placeholder="Add a Comment..."></textarea>
+        <button class="submit-btn">Submit Now</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Ouvrir la modale (si besoin de boutons ou d'actions pour l'ouvrir)
+    const openModal = document.querySelector('.open-modal');
+    const modal = document.querySelector('.modal');
+    const closeModal = document.querySelector('.modal-close');
+
+    // Gestion de l'ouverture de la modale (si tu as un bouton pour ouvrir)
+    if (openModal) {
+        openModal.addEventListener('click', () => {
+            modal.style.display = 'flex'; // Afficher la modale
+        });
+    }
+
+    // Gestion de la fermeture de la modale
+    closeModal.addEventListener('click', () => {
+        modal.style.display = 'none'; // Masquer la modale
+    });
+
+    // Fermer la modale si on clique à l'extérieur du contenu
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none'; // Masquer la modale
+        }
+    });
+
+    // Sélection des emojis (les réactions émotionnelles)
+    const emotions = document.querySelectorAll('.emotion');
+
+    emotions.forEach(emotion => {
+        emotion.addEventListener('click', () => {
+            // Retirer la classe 'selected' des autres
+            emotions.forEach(em => em.classList.remove('selected'));
+
+            // Ajouter la classe 'selected' à l'emoji cliqué
+            emotion.classList.add('selected');
+        });
+    });
+</script>
+
+
+
+</body>
+
+</html>

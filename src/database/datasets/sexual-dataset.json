@@ -1,0 +1,78 @@
+[
+    {
+        "input": "I love your pussy",
+        "output": "sexual"
+    },
+    {
+        "input": "pussy",
+        "output": "sexual"
+    },
+    {
+        "input": "fuck",
+        "output": "sexual"
+    },
+    {
+        "input": "I love your ass",
+        "output": "sexual"
+    },
+    {
+        "input": "I love your vagin",
+        "output": "sexual"
+    },
+    {
+        "input": "vagin",
+        "output": "sexual"
+    },
+    {
+        "input": "dick",
+        "output": "sexual"
+    },
+    {
+        "input": "I have a big dick",
+        "output": "sexual"
+    },
+    {
+        "input": "I fuck you",
+        "output": "sexual"
+    },
+    {
+        "input": "fuck you",
+        "output": "sexual"
+    },
+    {
+        "input": "pussy wet",
+        "output": "sexual"
+    },
+    {
+        "input": "sex",
+        "output": "sexual"
+    },
+    {
+        "input": "porno",
+        "output": "sexual"
+    },
+    {
+        "input": "xxx",
+        "output": "sexual"
+    },
+    {
+        "input": "ass",
+        "output": "sexual"
+    },
+    {
+        "input": "🍆🍑",
+        "output": "sexual"
+    },
+    {
+        "input": "🍆",
+        "output": "sexual"
+    },
+    {
+        "input": "🍑",
+        "output": "sexual"
+    },
+    {
+        "input": "buttock",
+        "output": "sexual"
+    }
+]

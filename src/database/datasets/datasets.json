@@ -1,0 +1,190 @@
+[
+  {
+    "input": "hello",
+    "output": "not-sexual"
+  },
+  {
+    "input": "word",
+    "output": "not-sexual"
+  },
+  {
+    "input": "yes",
+    "output": "not-sexual"
+  },
+  {
+    "input": "father",
+    "output": "not-sexual"
+  },
+  {
+    "input": "hi",
+    "output": "not-sexual"
+  },
+  {
+    "input": "go",
+    "output": "not-sexual"
+  },
+  {
+    "input": "how do you do?",
+    "output": "not-sexual"
+  },
+  {
+    "input": "magic",
+    "output": "not-sexual"
+  },
+  {
+    "input": "stop",
+    "output": "not-sexual"
+  },
+  {
+    "input": "word",
+    "output": "not-sexual"
+  },
+  {
+    "input": "cool",
+    "output": "not-sexual"
+  },
+  {
+    "input": "feel",
+    "output": "not-sexual"
+  },
+  {
+    "input": "love",
+    "output": "not-sexual"
+  },
+  {
+    "input": "like",
+    "output": "not-sexual"
+  },
+  {
+    "input": "sick",
+    "output": "not-sexual"
+  },
+  {
+    "input": "ask me",
+    "output": "not-sexual"
+  },
+  {
+    "input": "true",
+    "output": "not-sexual"
+  },
+  {
+    "input": "false",
+    "output": "not-sexual"
+  },
+  {
+    "input": "😁",
+    "output": "not-sexual"
+  },
+  {
+    "input": "😂",
+    "output": "not-sexual"
+  },
+  {
+    "input": "🍓🍅",
+    "output": "not-sexual"
+  },
+  {
+    "input": "comments",
+    "output": "not-sexual"
+  },
+  {
+    "input": "out",
+    "output": "not-sexual"
+  },
+  {
+    "input": "in",
+    "output": "not-sexual"
+  },
+  {
+    "input": "please",
+    "output": "not-sexual"
+  },
+  {
+    "input": "I love your pussy",
+    "output": "sexual"
+  },
+  {
+    "input": "pussy",
+    "output": "sexual"
+  },
+  {
+    "input": "fuck",
+    "output": "sexual"
+  },
+  {
+    "input": "I love your ass",
+    "output": "sexual"
+  },
+  {
+    "input": "I love your vagin",
+    "output": "sexual"
+  },
+  {
+    "input": "vagin",
+    "output": "sexual"
+  },
+  {
+    "input": "dick",
+    "output": "sexual"
+  },
+  {
+    "input": "I have a big dick",
+    "output": "sexual"
+  },
+  {
+    "input": "I fuck you",
+    "output": "sexual"
+  },
+  {
+    "input": "fuck you",
+    "output": "sexual"
+  },
+  {
+    "input": "pussy wet",
+    "output": "sexual"
+  },
+  {
+    "input": "sex",
+    "output": "sexual"
+  },
+  {
+    "input": "porno",
+    "output": "sexual"
+  },
+  {
+    "input": "cock",
+    "output": "sexual"
+  },
+  {
+    "input": "xxx",
+    "output": "sexual"
+  },
+  {
+    "input": "ass",
+    "output": "sexual"
+  },
+  {
+    "input": "\uD83C\uDF46\uD83C\uDF51",
+    "output": "sexual"
+  },
+  {
+    "input": "\uD83C\uDF46",
+    "output": "sexual"
+  },
+  {
+    "input": "\uD83C\uDF51",
+    "output": "sexual"
+  },
+  {
+    "input": "kiss",
+    "output": "sexual"
+  },
+  {
+    "input": "buttock",
+    "output": "sexual"
+  },
+  {
+    "input": "music",
+    "output": "not-sexual"
+  }
+]

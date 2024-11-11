@@ -1,0 +1,38 @@
+[
+    {
+        "input": "kill",
+        "output": "threat"
+    },
+    {
+        "input": "dead",
+        "output": "threat"
+    },
+    {
+        "input": "hate",
+        "output": "threat"
+    },
+    {
+        "input": "die",
+        "output": "threat"
+    },
+    {
+        "input": "I kill you",
+        "output": "threat"
+    },
+    {
+        "input": "you die",
+        "output": "threat"
+    },
+    {
+        "input": "💀",
+        "output": "threat"
+    },
+    {
+        "input": "I'm in anger with you",
+        "output": "threat"
+    },
+    {
+        "input": "I hate you",
+        "output": "threat"
+    }
+]

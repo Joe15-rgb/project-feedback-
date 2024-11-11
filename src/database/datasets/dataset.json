@@ -1,0 +1,66 @@
+[
+    {
+        "input": "hello word",
+        "output": "neutre"
+    },
+    {
+        "input": "fuck you",
+        "output": "negatif"
+    },
+    {
+        "input": "I love yoi",
+        "output": "positif"
+    },
+    {
+        "input": "you are happy",
+        "output": "positif"
+    },
+    {
+        "input": "how's it going",
+        "output": "neutre"
+    },
+    {
+        "input": "so long",
+        "output": "negatif"
+    },
+    {
+        "input": "I'm in anger with you",
+        "output": "negatif"
+    },
+    {
+        "input": "I hate you",
+        "output": "negatif"
+    },
+    {
+        "input": "I fuck you",
+        "output": "negatif"
+    },
+    {
+        "input": "big ass",
+        "output": "negatif"
+    },
+    {
+        "input": "fuck",
+        "output": "negatif"
+    },
+    {
+        "input": "Where do you from",
+        "output": "neutre"
+    },
+    {
+        "input": "how do you feel",
+        "output": "negatif"
+    },
+    {
+        "input": "I want you",
+        "output": "negatif"
+    },
+    {
+        "input": "🍆🍑",
+        "output": "negatif"
+    },
+    {
+        "input": "When I was dead",
+        "output": "negatif"
+    }
+]
